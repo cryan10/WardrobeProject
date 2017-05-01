@@ -1,0 +1,19 @@
+﻿body {
+        background-image: url(Images/leaves.jpg);
+}
+
+.title{
+    padding-top:100px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing:0.05px;
+    color:#ff006e;
+}
+
+.table{
+    background-color:white;
+    padding-top:30px;
+    font-family: 'Oswald', sans-serif;
+    font-size:18px;
+    letter-spacing:1px;
+    color:#000000;
+}

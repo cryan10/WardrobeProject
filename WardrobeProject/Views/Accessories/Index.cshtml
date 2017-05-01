@@ -1,0 +1,60 @@
+﻿@model IEnumerable<WardrobeProject.Models.Accessory>
+
+@{
+    ViewBag.Title = "My Accessories";
+}
+
+<head>
+    <link href="~/Content/ItemViewSheet.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Anton|Francois+One|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+
+</head>
+
+<div class="title">
+    <h1>My Accessories</h1>
+    <p>
+        @Html.ActionLink("Add a New Accessory", "Create")
+    </p>
+</div>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Photo
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Occasion
+        </th>
+        <th>
+            Color
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <img src="~/Content/Images/Accessories/Accessory5.jpg" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AccessoryName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AccessoryType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AccessoryColor)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AccessoryID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AccessoryID })
+        </td>
+    </tr>
+}
+
+</table>

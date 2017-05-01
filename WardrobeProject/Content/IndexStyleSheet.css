@@ -1,0 +1,35 @@
+﻿body {
+    background-image: url(Images/WalkInCloset2.jpeg);
+}
+
+
+.jumbotron{
+    color: #ffffff;
+    background-color:transparent;
+    font-family: 'Leckerli One', cursive;
+    text-align:center;
+    text-shadow: 2px 2px 6px #111111;
+}
+
+
+.jumbotron h1{
+    font-size:180px;
+}
+
+.btn-lg {
+    background-image: url("Images/paisley.jpg");
+    font-family: 'Leckerli One', cursive;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 35px;
+    text-align:center;
+    text-shadow: 1px 1px 2px #ffffff;
+    }
+
+#homebuttons{
+    color: #93C8D8;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing:0.05px;
+    opacity:2;
+}
+

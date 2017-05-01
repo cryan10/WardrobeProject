@@ -1,0 +1,18 @@
+﻿body {
+}
+.navbar{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer{
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color:white;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
